@@ -1,0 +1,89 @@
+$primary: rgb(242, 134, 26);
+
+body {
+    background-color: $primary;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+div {
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    50%,
+    100% {
+        background-color: orange;
+    }
+
+    25% {
+        background-color: rgb(29, 219, 124);
+    }
+
+    75% {
+        background-color: rgb(44, 146, 248);
+    }
+}
+
+.banner {
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.navbar {
+    display: none;
+}
+
+.demowork {
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    border-radius: 30px;
+    display: none;
+}
+
+.option {
+    background-color: rgb(255, 209, 5);
+}
+
+.option:hover {
+    background-color: rgb(242, 147, 40);
+}
+.option:hover + .demowork{
+    display: block;
+}
+
+@media (min-width: 760px) {
+    .dropdown {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    header {
+        background-color: rgb(255, 188, 49);
+
+        a {
+            text-decoration: none;
+            background-color: rgb(255, 188, 49);
+        }
+    }
+}

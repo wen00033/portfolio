@@ -1,0 +1,68 @@
+header{
+    display: flex;
+    justify-content: center;    
+}
+.navbar{
+    display: none;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+#backtotop{
+    float: right;
+    z-index: 10;
+}
+section img{
+    min-width: 100%;
+    margin: 0%;
+}
+.banner{
+    padding-bottom: 200px;
+}
+.card {
+    margin: 1rem auto;
+    position: relative;
+  }
+.card-img-top{
+    filter: blur(30px);
+    &:hover{
+        filter: blur(0px);
+    }
+}  
+.card-body {
+    z-index: 2;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+.carousel-item img{
+    min-width: 100%;
+}
+@media (min-width: 760px){
+    .dropdown {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+        text-decoration: none;
+    }
+
+    header {
+        background-color: rgb(255, 188, 49);
+
+        a {
+            text-decoration: none;
+            background-color: rgb(255, 188, 49);
+        }
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}  

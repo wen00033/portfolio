@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="css/work.css" rel="stylesheet">
+</head>
+
+<body class="bg-warning">
+    <a id="backtotop" href="#banner" class="btn btn-danger btn-floating btn-lg position-fixed bottom-0 end-0">
+        <i class="bi bi-chevron-double-up"></i>
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+    <header class=" d-block p-4">
+        <div class="navbar container text-center">
+            <div class="row">
+                <a href="index.html" rel="homepage" class="col-sm offset-md-6 p-2">
+                    <div class="fw-bolder text-white">About</div>
+                </a>
+                <a href="index.html" rel="contact" class="col-sm p-2">
+                    <div class="fw-bolder text-white">Contact</div>
+                </a>
+                <a href="work.html" rel="workpage" class="col-sm p-2">
+                    <div class="fw-bolder text-white">Work</div>
+                </a>
+            </div>
+        </div>
+        <div class="dropdown position-absolute top-0 start-0 md">
+            <button class="btn dropdown-toggle position-absolute bg-white border border-0 btn-lg text-warning"
+                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            </button>
+            <ul class="dropdown-menu border border-0 bg-secondary">
+                <li><a class="dropdown-item" href="index.html">About</a></li>
+                <li><a class="dropdown-item" href="work.html">Work</a></li>
+                <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                <li>
+                    <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item text-center" href="#"><i class="bi bi-facebook p-2"></i><i
+                            class="bi bi-instagram"></i><i class="bi bi-youtube p-3 "></i></a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="banner" class="banner d-block">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1"
+            x="0px" y="0px" viewBox="10 50 420 130" style="enable-background:new 0 0 180 120;" xml:space="preserve">
+            <style type="text/css">
+                .st0 {
+                    fill: #FFFFFF;
+                }
+
+                .st1 {
+                    font-family: 'SatoriShinka-Bold';
+                }
+
+                .st2 {
+                    font-size: 53.3554px;
+                }
+            </style>
+            <text transform="matrix(1 0 0 1 84.045 159.5892)" class="st0 st1 st2">My Works</text>
+        </svg>
+        <a href="#carousel" class="btn btn-outline-light position-relative top-50 start-50 m-0">
+            Click it!<i class="bi bi-caret-right-fill"></i>
+        </a>
+    </section>
+    <section class="grid">
+        <a href="#artwork" class="card">
+            <img class="card-img-top" src="images/digitalgraphic.png" alt="graphic">
+            <p class="card-body text-center bg p-2 fs-1 fw-bolder text-center text-white p-2">digital graphic</p>
+        </a>
+        <a href="#photo" class="card">
+            <img class="card-img-top" src="images/camera.png" alt="photography">
+            <p class="card-body text-center bg p-2 fs-1 fw-bolder text-center text-white p-2">photography</p>
+        </a>
+        <a href="#video" class="card">
+            <img class="card-img-top" src="images/video.png" alt="video">
+            <p class="card-body text-center bg p-2 fs-1 fw-bolder text-center text-white p-2">Video Production</p>
+        </a>
+        <a href="#web" class="card">
+            <img class="card-img-top" src="images/coding.png" alt="coding">
+            <p class="card-body text-center bg p-2 fs-1 fw-bolder text-center text-white p-2">Web Design</p>
+        </a>
+    </section>
+    <section id="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner bg-white rounded pt-2">
+                <div id="artwork" class="carousel-item active flex-row text-center">
+                    <h4>Digital graphic</h4>
+                    <img src="images/512px.jpg" class="d-block w-100" alt="artwork">
+                    <p class="p-3"> This is the first project I made in the first digital graphic class. My idea of this
+                        artwork is using contrast represent the main character. understanding what pen tool are and
+                        pathinder tool in AI.</p>
+                </div>
+                <div id="artwork1" class="carousel-item flex-row text-center">
+                    <h4>Digital graphic</h4>
+                    <img src="images/144px.png" class="d-block w-100" alt="artwork">
+                    <p class="p-3">This is the mid-term project that we create a 144X144 PNG file.</p>
+                </div>
+                <div id="photo" class="carousel-item flex-row text-center">
+                    <h4>Photography</h4>
+                    <img src="images/Wen_C_1.jpg" class="d-block w-100" alt="photo">
+                    <p class="p-3">Using the close up </p>
+                </div>
+                <div id="photo1" class="carousel-item flex-row text-center">
+                    <h4>Photography</h4>
+                    <img src="images/Wen_C_5.jpg" class="d-block w-100" alt="photo">
+                    <p class="p-3">This picture I shot with DLSR camera and after editing in Lightroom</p>
+                </div>
+                <div id="video" class="carousel-item flex-row text-center">
+                    <h4>Video Production</h4>
+                    <iframe width="1425" height="652" src="https://www.youtube.com/embed/w2FeHxmMTWk"
+                        title="Mid Term Assignment – Chi-hung"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p class="p-3">This is a video we create in our video foundation class. We start building</p>
+                </div>
+                <div id="web" class="carousel-item flex-row text-center">
+                    <h4>Web design</h4>
+                    <a href="https://wen00033.github.io/final-project/">
+                        <img src="images/webdesign.png" class="d-block w-100" alt="web">
+                    </a>
+                    <p>This is the website I create for the final assignment. understanding how to use html,css and
+                        design bleeding on website</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+</body>
+
+</html>

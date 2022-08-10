@@ -1,0 +1,110 @@
+body {
+  background-color: #f2861a;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: white;
+}
+
+div img {
+  width: 50px;
+  height: 50px;
+}
+
+@-webkit-keyframes bounce {
+
+  0%,
+  50%,
+  100% {
+    background-color: orange;
+  }
+
+  25% {
+    background-color: #1ddb7c;
+  }
+
+  75% {
+    background-color: #2c92f8;
+  }
+}
+
+@keyframes bounce {
+
+  0%,
+  50%,
+  100% {
+    background-color: orange;
+  }
+
+  25% {
+    background-color: #1ddb7c;
+  }
+
+  75% {
+    background-color: #2c92f8;
+  }
+}
+
+.banner {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.navbar {
+  display: none;
+}
+
+.demowork {
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  width: 50%;
+  height: 20%;
+  border-radius: 30px;
+  display: none;
+}
+
+.option {
+  background-color: #ffd105;
+}
+
+.option:hover {
+  background-color: #f29328;
+}
+
+.option:hover+.demowork {
+  display: block;
+}
+
+@media (min-width: 760px) {
+  .dropdown {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+  }
+
+  header {
+    background-color: #ffbc31;
+  }
+
+  header a {
+    text-decoration: none;
+    background-color: #ffbc31;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
